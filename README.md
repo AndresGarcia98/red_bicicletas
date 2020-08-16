@@ -1,1 +1,1 @@
-Este es un Reositorio que se usará para almacenar todaas las prácticas de Coursera.
+Este es un Reositorio que se usará para almacenar todaas las prácticas de Coursera
