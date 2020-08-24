@@ -5,5 +5,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 L.marker([6.2486068999999995, -75.5742467]).addTo(map)
-    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+    .bindPopup('Donde esta mi ubucación de mi internet')
+    .openPopup();
+
+L.marker([6.330841, -75.482367]).addTo(map)
+    .bindPopup('Mi casa')
+    .openPopup();
+
+L.marker([6.231942, -75.610910]).addTo(map)
+    .bindPopup('Mi universidad')
     .openPopup();
