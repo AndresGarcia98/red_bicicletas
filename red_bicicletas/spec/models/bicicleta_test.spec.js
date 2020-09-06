@@ -36,3 +36,20 @@ describe('Bicicleta.findByID', () => {
 
     });
 });
+
+/*describe('Bicicleta.removeById', () => {
+    it('Eliminar', () => {
+        expect(Bicicleta.allBicis.length).toBe(0);
+
+        var aBici = new Bicicleta(1, 'rojo', 'urbana');
+        var bBici = new Bicicleta(2, 'blanca', 'urbana');
+        Bicicleta.add(aBici);
+        Bicicleta.add(bBici);
+
+        Bicicleta.removeById(1);
+
+        var targetBici = Bicicleta.findById(1);
+        expect(targetBici).toBe('No se encentra una bicicleta con el ID: 1');
+
+    });
+});*/
